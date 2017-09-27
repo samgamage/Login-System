@@ -4,7 +4,7 @@
 
 <section class="main-container">
 	<div class="main-wrapper">
-		<h2>Login</h2>
+		<h2 class="signup">Login</h2>
 		<form class="signup-form" action="includes/login.inc.php" method="POST">
 			<input type="text" name="uid" placeholder="Username/e-mail">
 			<input type="password" name="pwd" placeholder="password">

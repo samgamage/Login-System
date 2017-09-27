@@ -1,8 +1,8 @@
-/* 
+/*
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
+Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
@@ -15,7 +15,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -32,7 +32,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
@@ -68,7 +68,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -91,7 +91,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -119,6 +119,10 @@ a {
 
 body {
     background-color: #ccc;
+}
+
+header {
+  height: 63px;
 }
 
 header nav.stroke {
@@ -163,7 +167,7 @@ header .nav-login {
 
 header .nav-login form {
     float: left;
-    padding-top: 15px;
+    padding-top: 12.5px;
 }
 
 header .nav-login form input {
@@ -185,6 +189,8 @@ header .nav-login form button {
     cursor: pointer;
     font-family: "Roboto";
     font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 header .nav-login a {
@@ -216,7 +222,7 @@ nav {
   margin: 0 auto;
   background-color: rgb(17,17,18);
   padding: 0px 0;
-  box-shadow: 1px 1px 1px #888888; 
+  box-shadow: 1px 1px 1px #ccc;
 }
 nav ul li a,
 nav ul li a:after,
@@ -273,7 +279,7 @@ nav.fill ul li a:hover:after {
 }
 
 .main-container {
-    padding-top: 16px;
+  padding-top: 16px;
 }
 
 .main-container h2 {
@@ -315,14 +321,14 @@ nav.fill ul li a:hover:after {
     font-size: 16px;
     color: #111;
     line-height: 40px;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
     border-radius: 0.25rem;
     margin-bottom: 10px;
     margin-top: 10px;
     transition: all .3s ease-in-out;
 }
 input:focus {
-    border: 1px solid #dc3545; 
+    border: 1px solid #dc3545;
     border-radius: 0.25rem;
 }
 
@@ -344,21 +350,59 @@ a {
     font-weight: bold;
 }
 
+/* Welcome Page */
+.welcome-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.welcome-content {
+  width: 440px;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  background-color: #fff;
+}
+
+.welcome-content h2 {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: bold; 
+  text-align: left; 
+  font-size: 30px; 
+  width: 400px;
+  padding-top: 10px;
+}
+
+.welcome-content h3 {
+  font-family: "Open sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+.welcome-content a {
+  text-decoration: underline;
+  color: #dc3545;
+}
+.welcome-content a:hover {
+  color: #ad1f2d;
+}
+
 
 
 /* Home Page */
 .dashboard {
-    width: 290px;
+    width: 590px;
     float: left;
-    height: 1000px;
+    height: 500px;
     background-color: #ccc;
     margin: 5px;
     border-radius: 5px;
 }
 .content-main {
-    width: 590px;
+    width: 885px;
     float: left;
-    height: 1000px;
     background-color: #ccc;
     margin: 5px;
     border-radius: 4px;

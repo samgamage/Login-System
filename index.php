@@ -4,14 +4,18 @@
 
 <section class="main-container">
 	<div class="main-wrapper">
+		<?
+			if (!isset($_SESSION['u_id'])) {
+				header("Location: signup.php");
+			} else {
+		?>
 		<div class="dashboard dashboard-left">
-			
+
 		</div>
-		<div class="content-main">
+		<div class="dashboard dashboard-left">
+
 		</div>
-		<div class="dashboard dashboard-right">
-			
-		</div>	
+		<?}?>
 	</div>
 </section>
 
